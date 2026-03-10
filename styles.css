@@ -1,9 +1,15 @@
 body{
-    background-color: #BD1616;
-    color: #FFE6E6;
+    background-color: #edf2f4;
+    color: #2b2d42;
     font-family: "Xanh Mono";
     margin: 0;
     padding: 0;
+}
+#name{
+    color: #d90429;
+}
+#bio{
+    color: #8d99ae;
 }
 #footer{
     background-color: white;
@@ -12,15 +18,29 @@ body{
     justify-content:space-between;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 75%;
     box-sizing: border-box;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0px 0px 10px 1px #ef233c;
+
 }
 #nav{
     background-color: white;
     color: black;
     position: fixed;
-    width: 100%;
+    margin: auto;
+    width: 75%;
     top: 0px;
+    left: 0;
+    right: 0;
+    border-radius: 0% 0% 15px 15px;
+    box-shadow: 0px 0px 10px 1px #ef233c;
+}
+#cc{
+    padding-left: 15px;
 }
 #footLinks{
     gap: 15px;
@@ -29,48 +49,33 @@ body{
     list-style: none;
     margin: 0px;
     padding-right: 15px;
-}
-#footLinks a:hover{
-    color: #ff4d4d;
-    transition: 0.3s;
+    
 }
 #navLinks {
+    padding-right: 15px;
     gap: 15px;
     display: flex;
     justify-content:flex-end;
     float: right;
     list-style: none;
 }
-#navLinks a:hover{
-color: #ff4d4d;
-transition: 0.3s;
-}
 #myPhoto{
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px #ef233c;
 }
-#linkedinphoto{
-    background-color: white;
-    height: 50px;
-    width: 50px;
-}
-#githubLogo {
-    height: 50px;
-    width: 50px;
-}
+
 #intro{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-top: 120px;
+    margin: 300px auto 0 auto;
+    width: 600px
+    ;
 }
-#resume{
-    border: 5px solid #ff4d4d;
-    background-color: white;
-    color: #ff4d4d;
-    border-radius: 10px;
-    text-align: center;
+.button{
+
 }
